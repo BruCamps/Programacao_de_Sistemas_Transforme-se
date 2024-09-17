@@ -7,10 +7,10 @@
 </div>
 
 
-<h1>Desenvolvimento de Sistemas | Transforme-se</h1>
+<h1>Programação de Sistemas | Transforme-se</h1>
 <br>
 
-Nesta 2ª fase do programa **[Transforme-se](https://www.serasaexperian.com.br/transforme-se/)** promovido pela **Serasa Experian** em colaboração com a **Gerando Falcões** e o **SENAC**, focará no desenvolvimento de habilidades em programação com o curso **Desenvolvimento de Sistemas**.
+Nesta 2ª fase do programa **[Transforme-se](https://www.serasaexperian.com.br/transforme-se/)** promovido pela **Serasa Experian** em colaboração com a **Gerando Falcões** e o **SENAC**, focará no desenvolvimento de habilidades em programação com o curso **Programação de Sistemas**.
 
 <br>
 
