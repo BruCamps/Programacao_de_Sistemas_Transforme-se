@@ -9,8 +9,16 @@ city = input("Write where you from: ")
 message = f"\nYour name's {name}\nYou are {age} years old\nYour height is {height}m\nYou are from {city}\n"
 print(message)
 
-# Exercício 2: Faça um algoritmo que receba 2 números e some eles
+# Exercício 2: Faça um algoritmo que receba 2 números e mostre o resultado da soma entre ambos
 num1 = int(input("\nDigite o 1º número: "))
 num2 = int(input("Digite o 2º número: "))
-soma = f"\n{num1} + {num2} = {num1+num2}"
-print(soma, end="\n")
+sumMsg = f"\n{num1} + {num2} = {num1+num2}"
+print(sumMsg, end="\n")
+
+# Aprendendo a usar a função type()
+resultSum = 1 + 5
+username = "Kiera"
+print(type(resultSum)) # Retorna o tipo de dado recebido na variável -> Será do tipo Integer (Número Inteiro)
+# Saída: <class 'int'>
+print(type(username)) # Retorna o tipo de dado recebido na variável -> Será do tipo String (Texto)
+# Saída: <class 'str'>
