@@ -4,7 +4,7 @@
 nome = input("\nInforme seu nome: ")
 altura = float(input("Informe sua altura: "))
 peso = float(input("Informe seu peso:  "))
-imc = peso / (altura * altura)
+imc = peso / (altura ** 2)
 
 # Variáveis de mensagem
 divisoria = f'{"-"*6} Resultado do IMC {"-"*6}'
