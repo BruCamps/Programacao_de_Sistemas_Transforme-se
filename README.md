@@ -47,8 +47,8 @@ Ele funciona em **diversas plataformas** e é uma **linguagem de código aberto*
 <br>
 
 > [!NOTE]
-> Há outras opções de ambientes, listei apenas alguns que já conheço e gosto. Mas o que eu mais utilizo e amo é o Visual Studio Code 💙.<br>
-> Obs.: O VS Code também pode ser usado na versão Web, e se quiser você pode conectar com sua conta do Github. Para conferir basta [clicar aqui](https://vscode.dev).
+> Há outras opções de ambientes, listei apenas alguns que já conheço e gosto. Mas o que eu mais utilizo e amo é o Visual Studio Code 💙.<br><br>
+> Obs.: O VS Code também pode ser usado na versão Web. Para conferir basta [clicar aqui](https://vscode.dev).
 
 <br>
 
