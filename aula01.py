@@ -2,12 +2,12 @@
 # 1- Recebe o valor de nome, idade, altura e cidade
 # 2- No final mostre todas as informações dadas pelo usuário
 
-name = input("\nWrite your name: ")
-age = int(input("Type your age: "))
-height = input("Type your height (with dot '.'): ")
-city = input("Write where you from: ")
-message = f"\nYour name's {name}\nYou are {age} years old\nYour height is {height}m\nYou are from {city}\n"
-print(message)
+nome = input("\nEscreva seu nome: ")
+idade = int(input("Digite a sua idade: "))
+altura = float(input("Informe a sua altura (com '.', não ','): "))
+cidade = input("Write where you from: ")
+mensagem = f"\nSeus Dados Pessoais:\n\n Nome:{nome}\nIdade:{idade} anos\nAltura: {altura} m\nCidade: {cidade}\n"
+print(mensagem)
 
 # Exercício 2: Faça um algoritmo que receba 2 números e mostre o resultado da soma entre ambos
 num1 = int(input("\nDigite o 1º número: "))
