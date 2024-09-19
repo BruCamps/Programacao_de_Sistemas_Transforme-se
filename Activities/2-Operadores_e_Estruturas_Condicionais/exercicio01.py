@@ -5,10 +5,10 @@
 # a idade for 12 anos ou mais. Caso contrário, imprima "Você não pode assistir ao filme".
 
 
-# Variável de Mensagem
+# Variável da Mensagem Inicial
 introducao = f'\n{"-"*14} CINECAT - Spider-Man No Way Home {"-"*14}\n\nAntes de prosseguir, por favor, informe sua idade: '
 
-# Variável de Idade
+# Variável da Idade
 idade = int(input(introducao))
 
 # Condicionais do tipo Simples
