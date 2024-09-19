@@ -16,13 +16,7 @@
 
 </details>
 
-https://github.com/user-attachments/assets/a695b5a4-61cb-4a61-a7b2-1082c973873c
-> Possibilidade 1: Quando a idade é menor que 12 anos
-
-<br>
-
-https://github.com/user-attachments/assets/de2c4152-4ce0-4b80-9c30-dbfff0456b27
-> Possibilidade 2: Quando a idade é maior ou igual a 12 anos
+https://github.com/user-attachments/assets/dd41f061-3774-4746-9fbe-879164155fb6
 
 <br>
 
@@ -43,18 +37,9 @@ https://github.com/user-attachments/assets/de2c4152-4ce0-4b80-9c30-dbfff0456b27
 
 </details>
 
-https://github.com/user-attachments/assets/a709443f-5694-49fc-9906-10174f5accae
-> Possibilidade 1: Quando o número é positivo
 
-<br>
+https://github.com/user-attachments/assets/28f0a26d-94ee-4d01-b547-c6a2068320a7
 
-https://github.com/user-attachments/assets/ce7a811f-6629-464e-8566-afc3f3aa0396
-> Possibilidade 2: Quando o número é negativo
-
-<br>
-
-https://github.com/user-attachments/assets/5b9c9220-6eee-4444-923c-6e02b5aaca42
-> Possibilidade 3: Quando o número é igual a 0
 
 <br>
 
@@ -80,24 +65,8 @@ https://github.com/user-attachments/assets/5b9c9220-6eee-4444-923c-6e02b5aaca42
 </details>
 
 
+https://github.com/user-attachments/assets/add8ff4b-6f56-4208-a47b-8b805ef6945b
 
-https://github.com/user-attachments/assets/4c3992b3-0377-41ec-b731-ca1acb0c6cf2
-> Possibilidade 1: Quando o número é menor que 50
-
-<br>
-
-https://github.com/user-attachments/assets/d411e198-6dc2-4112-a388-7fedc9291548
-> Possibilidade 2: Quando o número é maior ou igual a 50
-
-<br>
-
-https://github.com/user-attachments/assets/65b54e6f-562e-47fc-810e-331558f0037a
-> Possibilidade 3: Quando o número é maior ou igual a 70
-
-<br>
-
-https://github.com/user-attachments/assets/2c0b5287-a5cb-4a49-b6cf-55d32ecb85d2
-> Possibilidade 4: Quando o número é maior ou igual a 90
 
 <br>
 
