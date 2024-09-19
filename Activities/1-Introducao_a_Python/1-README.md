@@ -18,8 +18,13 @@
 
 
 https://github.com/user-attachments/assets/4d765ff3-2024-4fde-b058-5adb8573de72
+> Possibilidade 1: Quando a idade é menor do que 12 anos
+
+<br>
 
 https://github.com/user-attachments/assets/20d1cb55-17d1-47b1-bee9-74526b6cce7d
+> Possibilidade 2: Quando a idade é maior ou igual a 12 anos
 
+<br>
 
 > Clique aqui para visualizar o [código-fonte](../1-Introducao_a_Python/exercicio01.py)
