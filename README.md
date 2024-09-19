@@ -64,8 +64,8 @@ Durante o curso realizamos diversos exercícios que você pode conferir clicando
 
 | Nº    |  Conteúdo  | Pasta | README |
 | ----  |  --------  | :--:  |  :--:  |
-| 01    |  Introdução a Python | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/1-Introducao_a_Python) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado2.png" alt="" width="36%" align="center" style="display: flex;"/>]() |
-| 02    |  Operadores e Estruturas Condicionais | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado2.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/2-Operadores_e_Estruturas_Condicionais) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado3.png" alt="" width="36%" align="center" style="display: flex;"/>]() |
+| 01    |  Introdução a Python | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/1-Introducao_a_Python) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado2.png" alt="" width="36%" align="center" style="display: flex;"/>](./Activities/1-Introducao_a_Python/1-README.md) |
+| 02    |  Operadores e Estruturas Condicionais | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado2.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/2-Operadores_e_Estruturas_Condicionais) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado3.png" alt="" width="36%" align="center" style="display: flex;"/>](./Activities/2-Operadores_e_Estruturas_Condicionais/2-README.md) |
 
 <br>
 
