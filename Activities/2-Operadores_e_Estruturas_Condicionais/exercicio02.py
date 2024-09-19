@@ -4,6 +4,7 @@
 # Descrição: Escreva um programa que peça um número ao usuário e imprima "Número positivo" se o número 
 # for maior que zero. Caso contrário, imprima "Número negativo"
 
+# Variável do Número
 num = float(input("\nDigite qualquer número: "))
 
 if num > 0:                                     # Condição para o número ser positivo (verifica se o número é maior que 0)
