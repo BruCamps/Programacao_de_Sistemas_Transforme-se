@@ -9,10 +9,10 @@
 # • "Regular" para notas entre 50 e 69
 # • "Insuficiente" para notas abaixo de 50
 
-# Variável de Mensagem
+# Variável da Mensagem Inicial
 introducao = f"\n{"-"*14} SISTEMA DE INCENTIVO {"-"*14}\n\nEscreva uma nota sobre o seu desempenho no curso\nInforme a sua nota (0-100): "
 
-# Variável de Nota
+# Variável da Nota
 nota = float(input(introducao))
 
 if nota >= 90:                                                                                                          # Condição para nota maior ou igual a 90
