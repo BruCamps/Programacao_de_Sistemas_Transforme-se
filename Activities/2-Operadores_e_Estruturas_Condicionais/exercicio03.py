@@ -15,12 +15,13 @@ introducao = f"\n{"-"*14} SISTEMA DE INCENTIVO {"-"*14}\n\nEscreva uma nota sobr
 # Variável da Nota
 nota = float(input(introducao))
 
-if nota >= 90:                                                                                                          # Condição para nota maior ou igual a 90
+if nota > 100 or nota < 0:                                                                                           # Condição para nota maior que 100 ou menor que 0 (opcional)
+    print("\n[Nota inválida!]\nPor favor, informe uma nota entre 0 e 100.\n")                                                                                         
+elif nota >= 90:                                                                                                     # Condição para nota maior ou igual a 90
     print("\n[Parabéns!]\nSua dedicação é excelente; continue brilhando e\ndando o melhor de si! :D\n")
-elif nota >= 70:                                                                                                        # Condição para nota maior ou igual a 70
+elif nota >= 70:                                                                                                     # Condição para nota maior ou igual a 70
     print("\n[Ótimo trabalho!]\nUm desempenho bom mostra que seu esforço está\nvalendo a pena! OwO\n")
-elif nota >= 50:                                                                                                        # Condição para nota maior ou igual a 50
+elif nota >= 50:                                                                                                     # Condição para nota maior ou igual a 50
     print("\n[Muito bem!]\nVocê está no caminho certo! Continue assim! :)\n")
 else:                             
-    print("\n[Não desanime!]\nO importante é persistir e buscar melhorar.\nVocê é capaz de muito mais! ÒwÓ\n")          # Mensagem para nota abaixo de 50
-
+    print("\n[Não desanime!]\nO importante é persistir e buscar melhorar.\nVocê é capaz de muito mais! ÒwÓ\n")       # Mensagem para nota abaixo de 50
