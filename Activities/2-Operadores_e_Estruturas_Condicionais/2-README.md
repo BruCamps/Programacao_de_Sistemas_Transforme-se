@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/de2c4152-4ce0-4b80-9c30-dbfff0456b27
 
 <br>
 
-> Clique aqui para visualizar o [código-fonte](../Activities/2-Operadores_e_Estruturas_Condicionais/exercicio01.py)
+> Clique aqui para visualizar o [código-fonte](./Activities/2-Operadores_e_Estruturas_Condicionais/exercicio01.py)
 
 <br>
 
@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/5b9c9220-6eee-4444-923c-6e02b5aaca42
 
 <br>
 
-> Clique aqui para visualizar o [código-fonte](../Activities/2-Operadores_e_Estruturas_Condicionais/exercicio02.py)
+> Clique aqui para visualizar o [código-fonte](./Activities/2-Operadores_e_Estruturas_Condicionais/exercicio02.py)
 
 <br>
 
@@ -101,4 +101,4 @@ https://github.com/user-attachments/assets/2c0b5287-a5cb-4a49-b6cf-55d32ecb85d2
 
 <br>
 
-> Clique aqui para visualizar o [código-fonte](../Activities/2-Operadores_e_Estruturas_Condicionais/exercicio03.py)
+> Clique aqui para visualizar o [código-fonte](./Activities/2-Operadores_e_Estruturas_Condicionais/exercicio03.py)
