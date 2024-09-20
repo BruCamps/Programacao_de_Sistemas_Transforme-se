@@ -1,9 +1,12 @@
 # Exercício: Crie um programa que calcule o índice de massa corporal de uma pessoa.
 
+# Mensagem de Introdução
+print("\nCálculo do IMC (Índice de Massa Corpórea)\n\n[Atenção! Utilize ponto no lugar de vírgula para separar as casas decimais]\n")
+
 # Variáveis principais
-nome = input("\nInforme seu nome: ")
+nome = input("Informe seu nome: ")
 altura = float(input("Informe sua altura: "))  # Transforma a resposta do usuário em um número real (com casas decimais)
-peso = float(input("Informe seu peso:  "))     # Transforma a resposta do usuário em um número real (com casas decimais)
+peso = float(input("Informe seu peso: "))      # Transforma a resposta do usuário em um número real (com casas decimais)
 imc = peso / (altura ** 2)                     # Realiza o cálculo do IMC (Índice de Massa Corpórea)
 
 """
@@ -16,8 +19,8 @@ imc = peso / (altura ** 2)                     # Realiza o cálculo do IMC (Índ
 """
 
 # Variáveis de mensagem
-divisoria = f'{"-"*6} Resultado do IMC {"-"*6}'
-mensagem = f'\n{divisoria}\n\nOlá, {nome}!\n\nAltura: {altura}\nPeso: {peso}\nIMC: {imc:.2f}\n'
+divisoria = f'{"-"*4} Dados Pessoais {"-"*4}'
+mensagem = f'\n{divisoria}\n\nNome: {nome}\nAltura: {altura:.2f}m\nPeso: {peso:.2f}kg\nIMC: {imc:.2f}\n'
 
 """
   O :.[número_inteiro]f controla a exibição de números float, definindo quantas casas decimais devem 
@@ -29,6 +32,9 @@ mensagem = f'\n{divisoria}\n\nOlá, {nome}!\n\nAltura: {altura}\nPeso: {peso}\nI
     print(formatacao)
     # Saída: 3.1416
 """
+
+# Função de saída
+print(mensagem)
 
 # Função de saída
 print(mensagem)
