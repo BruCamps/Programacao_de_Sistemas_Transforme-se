@@ -4,14 +4,20 @@
 num = int(input("\nDigite um número: "))
 
 # Variáveis do Fatorial
-fat = 1
+resultado = 1
 fatores = [] # Lista dos fatores (números que compõe a multiplicação do fatorial)
 
-for i in range(1, num+1):  # Laço de repetição com range (1 -> Começa em 1, num+1 -> Vai até o número informado)
-    fat = fat * i
+for i in range(num, 0, -1):  # Laço de repetição com range
+
+    # Armazena o resultado da multiplicação com o i
+    resultado *= i
+
+    # Adiciona o contador i aos fatores (números da multiplicação)
     fatores.append(i)
-    join = ' x '.join(map(str, fatores))
 
-print("\n{}! = {} = {}\n".format(num, join[::-1], fat)) # Imprime o cálculo e o resultado
 
-# OBS.: O join[::-1] inverte a ordem da lista de fatores
+# Une os fatores colocando x entre eles
+multiplicacao = ' x '.join(map(str, fatores))
+
+# Imprime o cálculo e o resultado
+print(f"\n{num}! = {multiplicacao} = {resultado}\n")
