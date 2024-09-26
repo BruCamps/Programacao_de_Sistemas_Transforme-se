@@ -7,10 +7,10 @@
 </div>
 
 
-<h1>Programação de Sistemas | Transforme-se</h1>
+<h1>Programador de Sistemas | Transforme-se</h1>
 <br>
 
-Nesta 2ª fase do programa **[Transforme-se](https://www.serasaexperian.com.br/transforme-se/)** promovido pela **Serasa Experian** em colaboração com a **Gerando Falcões** e o **SENAC**, focará no desenvolvimento de habilidades em programação com o curso **Programação de Sistemas**.
+Nesta 2ª fase do programa **[Transforme-se](https://www.serasaexperian.com.br/transforme-se/)** promovido pela **Serasa Experian** em colaboração com a **Gerando Falcões** e o **SENAC**, focará no desenvolvimento de habilidades em programação com o curso **Programador de Sistemas**.
 
 <br>
 
@@ -66,6 +66,8 @@ Durante o curso realizamos diversos exercícios que você pode conferir clicando
 | ----  |  --------  | :--:  |  :--:  |
 | 01    |  Introdução a Python | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/1-Introducao_a_Python) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado2.png" alt="" width="36%" align="center" style="display: flex;"/>](./Activities/1-Introducao_a_Python/1-README.md) |
 | 02    |  Operadores e Estruturas Condicionais | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado2.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/2-Operadores_e_Estruturas_Condicionais) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado3.png" alt="" width="36%" align="center" style="display: flex;"/>](./Activities/2-Operadores_e_Estruturas_Condicionais/2-README.md) |
+| 03    |  Manipulação de Strings | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado3.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/3-Manipulacao_de_Strings) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado1.png" alt="" width="36%" align="center" style="display: flex;"/>](./Activities/3-Manipulacao_de_Strings/3-README.md) |
+| 04    |  Operadores e Estruturas Condicionais | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/4-Estruturas_de_Repeticao) | [<img src="https://github.com/BruCamps/Logica_de_Programacao_Transforme-se/blob/main/Images/quadrado2.png" alt="" width="36%" align="center" style="display: flex;"/>](./Activities/4-Estruturas_de_Repeticao/2-README.md) |
 
 <br>
 
