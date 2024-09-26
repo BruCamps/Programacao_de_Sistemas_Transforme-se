@@ -4,9 +4,9 @@
 
 # Variáveis de array
 arraynome = []
-arrayidade = []
+arrayidade = [] # (opcional)
 
-# Variáveis que armazena o nome da pessoa mais velha e mais nova
+# Variáveis que armazenam o nome da pessoa mais velha e mais nova (opcional)
 maisvelha = ''
 maisnova = ''
 
@@ -26,7 +26,7 @@ while i < 5:
 
     # Armazenando os valores de nome e idade em seus respectivos arrays
     arrayidade.append(idade)
-    arraynome.append(nome)
+    arraynome.append(nome) # (opcional)
 
     # Condicionais para idade maior e menor (opcional)
     if arrayidade[i] > maior:
