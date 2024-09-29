@@ -9,8 +9,8 @@ pessoas = {
     "Milly": "Verde"
 }
 
-print("\n\033[1mNome\033[m\t|  \033[1mCamisa\033[m", end="\n")
+print(f"\n\033[1mNome\033[m\t|  \033[1mCamisa\033[m\n{'—'*20}")
 
 for pessoa in pessoas:
-    print(f'{pessoa}\t|  {pessoas[pessoa]}')
+    print(f'{pessoa}\t|  {pessoas[pessoa]}\n{'—'*20}')
 print(end="\n")
