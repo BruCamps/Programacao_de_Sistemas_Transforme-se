@@ -12,15 +12,13 @@ cont = 0                                                                        
 
 print('\n\033[1;4;34mCadastro de 5 Filmes\033[m')
 
-for i in range(2):
+for i in range(5):
 
     titulo = input(f'\n{i+1}º filme: ').title().strip()
-
     while not titulo or titulo.isnumeric():                                                     # (opcional)
         titulo = input(f'{tituloInvalido}\nNome do {i+1}º filme: ').title().strip()             # (opcional)
 
     ano = input('Ano: ')
-
     while not ano or not ano.isnumeric() or int(ano) < 1880:                                    # (opcional)
         if not ano.isnumeric() or not ano:                                                      # (opcional)
             print(numeroInvalido)                                                               # (opcional)
