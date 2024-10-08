@@ -6,6 +6,7 @@ imprimir o resultado.
  
 def calculo(num):
     return num ** 2
+ 
 def resultado(num):
     print(f'\n{num}² = {num} x {num} = {exp(num)}\n')
  
