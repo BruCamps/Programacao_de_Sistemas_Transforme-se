@@ -11,6 +11,6 @@ caractere1 = input("Digite uma letra: ")
 caractere2 = input("Digite outra letra: ")
  
 def substituir_caracteres(string, c1, c2):
-    print(f'\nPalavra original: {string}\nPalabra modificada: {string.replace(c1, c2)}\n')
+    print(f'\nPalavra original: {string}\nPalavra modificada: {string.replace(c1, c2)}\n')
  
 substituir_caracteres(palavra, caractere1, caractere2)
