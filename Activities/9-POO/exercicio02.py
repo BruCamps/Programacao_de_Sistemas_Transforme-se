@@ -28,7 +28,7 @@ try:
             estoque.quantidade.append(quantidade)
 
         elif opcaoMenu == 2:
-            buscaNome = input("\033[0;34mNome do buscaNome:\033[m ").strip()
+            buscaNome = input("\033[0;34mNome do produto:\033[m ").strip()
             opcao = int(input(f"\n\033[0;34mO que deseja alterar?\033[m\n[1] Alterar nome\t[3] Alterar código\n[2] Alterar preço\t [4] Alterar quantidade\n\n\033[0;34mEscolha uma opção:\033[m "))
             
             if opcao == 1:
