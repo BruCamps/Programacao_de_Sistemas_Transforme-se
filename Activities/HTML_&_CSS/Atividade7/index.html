@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha.jpg" type="image/x-icon">
+    <title>Pesquisa</title>
+</head>
+<body>
+    <form action="./">
+ 
+        <h1>Pesquisa</h1>
+ 
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" min="0" max="100" id="idade" required>
+        </div>
+       
+        <h2>Gênero de filmes favoritos</h2>
+ 
+        <div class="content-checkboxers">
+            <div class="content">
+                <input type="checkbox" name="acao" id="acao">
+                <label for="acao">Ação</label>
+            </div>
+            <div class="content">
+                <input type="checkbox" name="romance" id="romance">
+                <label for="romance">Romance</label>
+            </div>
+            <div class="content">
+                <input type="checkbox" name="nacional" id="nacional">
+                <label for="nacional">Nacional</label>
+            </div>
+            <div class="content">
+                <input type="checkbox" name="comedia" id="comedia">
+                <label for="comedia">Comédia</label>
+            </div>
+            <div class="content">
+                <input type="checkbox" name="outros" id="outros">
+                <label for="outros">Outros</label>
+            </div>
+            <input type="text" name="outros-filmes" id="outros-filmes">
+
+        </div>
+ 
+        <h2>Quantos filmes você assiste por semana?</h2>
+ 
+        <div class="content-radios">
+            <div class="content">
+                <input type="radio" name="total_filmes" id="total_filmes" required>
+                <label for="total_filmes">0</label>
+            </div>
+            <div class="content">
+                <input type="radio" name="total_filmes" id="total_filmes">
+                <label for="total_filmes">1</label>
+            </div>
+            <div class="content">
+                <input type="radio" name="total_filmes" id="total_filmes">
+                <label for="total_filmes">2</label>
+            </div>
+            <div class="content">
+                <input type="radio" name="total_filmes" id="total_filmes">
+                <label for="total_filmes">3 ou mais</label>
+            </div>
+        </div>
+
+        <div class="card-alerta">
+            <i data-lucide="badge-alert"></i>
+            <p>O formulário não irá coletar dados, pois foi criado apenas para demonstração.</p>
+        </div>
+ 
+        <div class="btns">
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
