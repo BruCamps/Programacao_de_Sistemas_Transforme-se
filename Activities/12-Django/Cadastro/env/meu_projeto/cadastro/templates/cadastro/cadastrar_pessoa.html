@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/cadastro.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/database-icon.png' %}" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form method="POST" action="{% url 'cadastrar_pessoa' %}" id="form">
+            {% csrf_token %}
+            <div class="contents">
+                <div class="content-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" autocomplete="name" id="nome" name="nome" maxlength="20" placeholder="Ex: Beatriz Santos" required>
+                </div>
+                <div class="content-input">
+                    <label for="email">Email</label>
+                    <input type="email" autocomplete="email" id="email" name="email" maxlength="30" placeholder="Ex: exemplo@gmail.com" required>
+                </div>
+                <div class="content-input">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" autocomplete="tel" name="telefone" maxlength="11" placeholder="(00) 00000-0000" required>
+                </div>
+                <div class="content-input">
+                    <label for="data_nascimento">Data de Nascimento</label>
+                    <div class="datepicker-container">
+
+                        <div>
+                            <input type="date" autocomplete="bday" id="data_nascimento" name="data_nascimento" required>
+                            <div class="icon-calendar">
+                                <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.5 4.50012H5.5C4.39543 4.50012 3.5 5.39555 3.5 6.50012V17.5001C3.5 18.6047 4.39543 19.5001 5.5 19.5001H19.5C20.6046 19.5001 21.5 18.6047 21.5 17.5001V6.50012C21.5 5.39555 20.6046 4.50012 19.5 4.50012Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M3.5 8.50012C3.5 6.61412 3.5 5.67212 4.086 5.08612C4.672 4.50012 5.614 4.50012 7.5 4.50012H17.5C19.386 4.50012 20.328 4.50012 20.914 5.08612C21.5 5.67212 21.5 6.61412 21.5 8.50012H3.5Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <span id="msgError" hidden></span>
+
+                        <div class="datepicker">
+
+                            <div class="datepicker-header">
+                                <button class="prev" type="button">
+                                    <svg width="17" height="17" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.333 6.50004L7.99967 11.8334L2.66634 6.50004L3.99967 5.16671L7.99967 9.16671L11.9997 5.16671L13.333 6.50004Z" fill="currentColor" />
+                                    </svg>
+                                </button>
+
+                                
+                                <div class="container-header">
+                                    <div class="select">
+    
+                                        <div id="month-select">
+                                            <input type="checkbox" id="month" name="month">
+                        
+                                            <div id="select-button">
+                                                <div id="selected-value" class="month-input">Novembro</div>
+                                                
+                                                <div id="chevrons">
+                                                    <i data-lucide="chevron-up"></i>
+                                                    <i data-lucide="chevron-down"></i>
+                                                </div>
+                                            </div>
+                        
+                                        </div>
+                        
+                                        <ul id="options">
+                                            <li class="option">
+                                                <input type="radio" id="janeiro" value="1" name="month" data-label="Janeiro">
+                                                <label for="janeiro">Janeiro</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="fevereiro" value="2" name="month" data-label="Fevereiro">
+                                                <label for="fevereiro">Fevereiro</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="marco" value="3" name="month" data-label="Março">
+                                                <label for="marco">Março</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="abril" value="4" name="month" data-label="Abril">
+                                                <label for="abril">Abril</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="maio" value="5" name="month" data-label="Maio">
+                                                <label for="maio">Maio</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="junho" value="6" name="month" data-label="Junho">
+                                                <label for="junho">Junho</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="julho" value="7" name="month" data-label="Julho">
+                                                <label for="julho">Julho</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="agosto" value="8" name="month" data-label="Agosto">
+                                                <label for="agosto">Agosto</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="setembro" value="9" name="month" data-label="Setembro">
+                                                <label for="setembro">Setembro</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="outubro" value="10" name="month" data-label="Outubro">
+                                                <label for="outubro">Outubro</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="novembro" value="11" name="month" data-label="Novembro">
+                                                <label for="novembro">Novembro</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                            <li class="option">
+                                                <input type="radio" id="dezembro" value="12" name="month" data-label="Dezembro">
+                                                <label for="dezembro">Dezembro</label>
+                                                <i data-lucide="check"></i>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
+                                    <input type="number" id="year" class="year-input">
+                                </div>
+
+                                <button class="next" type="button">
+                                    <svg width="17" height="17" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.333 6.50004L7.99967 11.8334L2.66634 6.50004L3.99967 5.16671L7.99967 9.16671L11.9997 5.16671L13.333 6.50004Z" fill="currentColor" />
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <div class="days">
+                                <span>Dom</span>
+                                <span>Seg</span>
+                                <span>Ter</span>
+                                <span>Qua</span>
+                                <span>Qui</span>
+                                <span>Sex</span>
+                                <span>Sab</span>
+                            </div>
+                            <div class="dates"></div>
+
+                            <div class="datepicker-footer">
+                                <button type="button" class="cancel">Cancelar</button>
+                                <button type="button" class="apply">Salvar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="{% static 'js/cadastro-picker.js' %}" defer></script>
+</body>
+</html>

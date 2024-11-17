@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/resposta.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/database-icon.png' %}" type="image/x-icon">
+    <title>Feedback</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro realizado com sucesso! &#128526;&#10024;</h1>
+        <h2>Informações Salvas</h2>
+        <ul>
+            <li>
+                <span>Nome</span>
+                <p>{{ pessoas.nome }}</p>
+            </li>
+            <li>
+                <span>Email</span>
+                <p>{{ pessoas.email }}</p>
+            </li>
+            <li>
+                <span>Telefone</span>
+                <p>{{ pessoas.telefone }}</p>
+            </li>
+            <li>
+                <span>Data de Nascimento</span>
+                <p>{{ pessoas.data_nascimento }}</p>
+            </li>
+        </ul>
+        <div class="container-btns">
+            <button class="back"><a href="{% url 'cadastrar_pessoa' %}">Voltar</a></button>
+            <button class="main"><a href="{% url 'listar_pessoas' %}">Ver Pessoas Cadastradas</a></button>
+        </div>
+    </div>
+</body>
+</html>

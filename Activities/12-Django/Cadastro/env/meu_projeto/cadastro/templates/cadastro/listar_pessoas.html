@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/list.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/database-icon.png' %}" type="image/x-icon">
+    <title>Lista de Pessoas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pessoas Cadastradas</h1>
+        <ul>
+            {% for pessoa in pessoas %}
+                <li>
+                    <div class="info">
+                        <span>Nome</span>
+                        <h4>{{ pessoa.nome }}</h4>
+                    </div>
+                    <div class="info">
+                        <span>Email</span>
+                        <p>{{ pessoa.email }}</p>
+                    </div>
+                    <div class="info">
+                        <span>Telefone</span>
+                        <p>{{ pessoa.telefone }}</p>
+                    </div>
+                    <div class="info">
+                        <span>Data de Nascimento</span>
+                        <p>{{ pessoa.data_nascimento }}</p>
+                    </div>
+                </li>
+            {% empty %}
+                <li class="empty">Nenhuma pessoa foi cadastrada.</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
